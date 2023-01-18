@@ -1,0 +1,36 @@
+body {
+  background: url(pic/qmsjt.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bigbox {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid gray;
+  backdrop-filter: blur(10px);
+}
+
+.hello {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#jjjjj {
+  width: 300px;
+  height: 300px;
+}
